@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(233, 41, 169);
+
+
+}
+
+.details {
+    text-align: left;
+    color: black;
+    margin-top: 5em;
+
+
+}
+
+@media (min-width: 900px) {
+    .page {
+
+        display: flex;
+    }
+}
+
+.image1 {
+    margin-top: 0em;
+    padding-left: 5em;
+    
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    align-items: center;
+    background-color: aqua;
+}
+
+@media(min-width:900px) {
+    .thecity {
+        display: flex;
+    }
+}
+
+.para {
+    width: 50%;
+    font-size: large;
+}
+
+@media (min-width: 900px) {
+    .Subjects {
+        display: flex;}
+        
+    }
+    .tables{
+        margin-left: auto;
+        margin-right: auto;
+    }
