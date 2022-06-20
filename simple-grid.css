@@ -145,7 +145,7 @@ p {
 }
 
 .col-6-sm {
-  width: 46%;
+  width: 10%;
 }
 
 .col-7-sm {
@@ -198,7 +198,8 @@ p {
   }
 
   .col-3 {
-    width: 28%;
+    width: 25%;
+    margin: 0;
   }
 
   .col-4 {
@@ -210,7 +211,7 @@ p {
   }
 
   .col-6 {
-    width: 46%;
+    width: 20%;
   }
 
   .col-7 {

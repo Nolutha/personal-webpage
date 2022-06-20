@@ -44,10 +44,18 @@ td {
     width: 50%;
     font-size: large;
 }
+  .para2{
+width: 90px; ;
+font-size: medium; 
+float: right;
+margin-right: 5em;
+margin-bottom: 10em;
+}
 
 @media (min-width: 900px) {
     .Subjects {
-        display: flex;}
+        display: flex;
+    width: 90%;}
         
     }
     .tables{
