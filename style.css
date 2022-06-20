@@ -55,10 +55,22 @@ margin-bottom: 10em;
 @media (min-width: 900px) {
     .Subjects {
         display: flex;
-    width: 90%;}
-        
+    width: 90%;}    
     }
+
     .tables{
         margin-left: auto;
         margin-right: auto;
     }
+    @media only screen and (min-width: 45em) {  /* 720px */
+
+        .col-3 {
+          width: 25%;
+          margin-right: 10em;
+        }
+    }
+    .row{
+        display: flex;
+    }
+
+
