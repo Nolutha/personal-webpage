@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(233, 41, 169);
+    background-color: rgb(252, 181, 115);
 
 
 }
@@ -24,14 +24,19 @@ body {
     padding-left: 5em;
     
 }
-
+.tables{
+    margin-left: auto;
+    margin-right: auto;
+}
 table,
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid cornflowerblue;
     border-collapse: collapse;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(172, 240, 240);
+    width: 70%;
+    border-radius: 1 em;
 }
 
 @media(min-width:900px) {
@@ -45,11 +50,8 @@ td {
     font-size: large;
 }
   .para2{
-width: 90px; ;
+width: 50%; ;
 font-size: medium; 
-float: right;
-margin-right: 5em;
-margin-bottom: 10em;
 }
 
 @media (min-width: 900px) {
@@ -58,11 +60,7 @@ margin-bottom: 10em;
     width: 90%;}    
     }
 
-    .tables{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    @media only screen and (min-width: 45em) {  /* 720px */
+    @media (min-width: 900px) {
 
         .col-3 {
           width: 25%;
@@ -72,5 +70,6 @@ margin-bottom: 10em;
     .row{
         display: flex;
     }
-
-
+    
+    
+    
